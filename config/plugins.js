@@ -6,6 +6,17 @@ module.exports = ({ env }) => ({
     },
   },
   ckeditor: true,
-  graphql: true,
+  graphql: {
+    enabled: true,
+    config: {
+      playgroundAlways: true,
+      defaultLimit: 10,
+      maxLimit: 20,
+      apolloServer: {
+        tracing: true,
+      },
+    },
+  },
+
   // ...
 });
