@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_picks_picks",
+  "info": {
+    "displayName": "featured",
+    "icon": "book-open",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "featured": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

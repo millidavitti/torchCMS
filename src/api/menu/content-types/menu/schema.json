@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "menus",
+  "info": {
+    "singularName": "menu",
+    "pluralName": "menus",
+    "displayName": "Menu",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "path": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "isDropDown": {
+      "type": "boolean",
+      "default": false,
+      "required": false
+    },
+    "IDD": {
+      "type": "uid"
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::category.category"
+    },
+    "archives": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::archive.archive"
+    }
+  }
+}
