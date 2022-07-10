@@ -12,6 +12,10 @@ module.exports = ({ env }) => ({
       playgroundAlways: true,
       defaultLimit: 10,
       maxLimit: 20,
+      generateArtifacts: true,
+      artifacts: {
+        schema: true,
+      },
       apolloServer: {
         tracing: true,
       },
