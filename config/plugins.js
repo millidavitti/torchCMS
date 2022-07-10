@@ -6,5 +6,6 @@ module.exports = ({ env }) => ({
     },
   },
   ckeditor: true,
+  graphql: true,
   // ...
 });
