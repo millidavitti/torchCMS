@@ -22,11 +22,11 @@ module.exports = ({ env }) => ({
     config: {
       provider: "aws-s3",
       providerOptions: {
-        accessKeyId: env("AWS_ACCESS_KEY_ID"),
-        secretAccessKey: env("AWS_ACCESS_SECRET"),
-        region: env("AWS_REGION"),
+        accessKeyId: "AKIATPCPUKDPD2ZJTN2B",
+        secretAccessKey: "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",
+        region: "US East (N. Virginia) us-east-1",
         params: {
-          Bucket: env("AWS_BUCKET"),
+          Bucket: "torch-cms-media",
         },
       },
     },
