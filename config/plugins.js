@@ -24,7 +24,7 @@ module.exports = ({ env }) => ({
       providerOptions: {
         accessKeyId: "AKIATPCPUKDPD2ZJTN2B",
         secretAccessKey: "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",
-        region: "US East (N. Virginia) us-east-1",
+        region: "us-east-1",
         params: {
           Bucket: "torch-cms-media",
         },
