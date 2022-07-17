@@ -69,6 +69,13 @@
       "relation": "manyToOne",
       "target": "api::author.author",
       "inversedBy": "posts"
+    },
+    "seoDescription": {
+      "type": "text",
+      "required": true
+    },
+    "seoTitle": {
+      "type": "string"
     }
   }
 }
